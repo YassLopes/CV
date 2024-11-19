@@ -1,0 +1,84 @@
+.jogo-da-senha {
+  padding: 20px;
+  background: #ecf0f1; /* Light background */
+  color: #2c3e50; /* Dark text */
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.jogo-da-senha h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #f39c12;
+}
+
+/* Container for input and buttons */
+.jogo-da-senha .input-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; /* Space between input and buttons */
+  margin-bottom: 20px; /* Space below the input row */
+}
+
+.jogo-da-senha input {
+  padding: 10px;
+  font-size: 16px;
+  width: 250px; /* Fixed input width */
+  border: 1px solid #bdc3c7;
+  border-radius: 5px;
+  outline: none;
+  transition:
+    border 0.3s,
+    box-shadow 0.3s;
+}
+
+.jogo-da-senha input:focus {
+  border: 1px solid #f39c12;
+  box-shadow: 0 0 5px rgba(243, 156, 18, 0.5);
+}
+
+.jogo-da-senha button {
+  padding: 10px 15px; /* Smaller button padding */
+  font-size: 16px;
+  background: #f39c12;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition:
+    background 0.3s,
+    transform 0.2s;
+}
+
+.jogo-da-senha button:hover {
+  background: #e67e22;
+  transform: scale(1.05);
+}
+
+.jogo-da-senha ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.jogo-da-senha li {
+  background: #34495e;
+  color: #ecf0f1;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.jogo-da-senha li span {
+  font-weight: bold;
+  color: #f39c12;
+}
